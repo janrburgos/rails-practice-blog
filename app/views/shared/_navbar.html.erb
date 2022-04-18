@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand navbar-light bg-light px-2">
-  <a class="navbar-brand" href="/">Menu</a>
+  <%= link_to "Menu", root_path, class: "navbar-brand" %>
 
   <div>
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="/">Home</a>
+        <%= link_to "Home", root_path, class: "nav-link" %>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/about">About</a>
+        <%= link_to "About", about_path, class: "nav-link" %>
       </li>
     </ul>
   </div>
